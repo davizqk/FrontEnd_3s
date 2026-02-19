@@ -1,0 +1,125 @@
+* { 
+    margin: 0; /* remove margens padrão */
+    padding: 0; /* remove preenchimentos padrão */
+    box-sizing: border-box; /* inclui bordas e preenchimentos no cálculo do tamanho total dos elementos */
+}
+           
+body { 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ------------------HEADER------------------ */
+
+header { 
+    width: 100%; /* 100% da largura da tela */
+    height: 100px; /* altura do header */
+}
+
+/* Container - usado para centralizar o site 
+e conteudo do site */
+.layout-grid {
+    margin: 0 auto; /* centraliza o layout */
+    width: 1200px; /* largura total do layout */
+    height: 100%; /* altura do layout */
+}
+
+.header-flex {
+    display: flex; /* ativa o Flexbox */
+    justify-content: space-between; /* distribui os itens com espaço entre eles */
+    align-items: center; /* alinha os itens verticalmente ao centro */
+}
+
+/* Logotipo */
+header img {
+    width: 140px; /* largura da logo */
+}
+
+/*Menu*/
+header nav {
+    display: flex; /* ativa o Flexbox para o nav */
+    justify-content: space-between; /* distribui os itens com espaço entre eles */
+    align-items: center; /* alinha os itens verticalmente ao centro */
+    width: 330px; /* largura do nav */
+}
+
+/*Links do menu*/
+header nav a {
+    text-decoration: none; /* remove sublinhado dos links */
+    color: black; /* cor do texto dos links */      
+    text-transform: uppercase; /* transforma o texto em maiúsculas */
+    font-weight: bold; /* deixa o texto em negrito */
+}
+
+
+/* ------------------BANNER------------------ */
+
+.banner {
+    width: 100%; /* 100% da largura da tela */
+    position: relative; /* posição relativa para permitir posicionamento absoluto do link */
+    /* height: 500px; altura do banner */
+    border: 2px solid black; /* borda preta de 2px */
+}
+
+.banner img {
+    width: 100%; /* 100% da largura do banner */
+    top: 0; /* posiciona o link no topo da imagem */
+    left: 0; /* posiciona o link à esquerda da imagem */
+}
+
+/*Get Started*/
+.banner a {
+    position: absolute; /*referencial de posicionamento é o primeiro 
+    ancestral que tiver alhum position definido*/
+    top: 57%; /* posiciona o link verticalmente no meio da imagem */
+    left: 45%; /* posiciona o link horizontalmente no meio da imagem */
+    display: flex; /* ativa o Flexbox para o link */
+    justify-content: center; /* centraliza o conteúdo horizontalmente */
+    align-items: center; /* centraliza o conteúdo verticalmente */
+
+    width: 155px; /* largura do botão */
+    height: 45px; /* altura do botão */
+    background-color: #000000; /* cor de fundo do botão */
+    color: white; /* cor do texto do botão */
+    font-weight:500; /* peso da fonte do texto do botão */
+    text-decoration: none; /* remove sublinhado do link */      
+    border-radius: 3px; /* bordas arredondadas do botão */
+}
+
+
+/* ------------------REASON TO USE------------------ */
+.reason-to-use {
+    height: 500px; /* altura da seção de razões */
+    border: 2px solid black; /* borda preta de 2px */
+}
+
+.reason-flex {
+    display: flex; /* ativa o Flexbox para a seção de razões */
+    justify-content: space-between; /* distribui os cartões com espaço entre eles */
+    align-items: center; /* alinha os cartões verticalmente ao centro */
+}
+
+.reason-to-use .reason-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px; /* largura de cada cartão */
+    height: 300px; /* altura de cada cartão */
+    /* border: 2px solid green; */
+}
+
+.reason-to-use .reason-card .imagem {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.reason-to-use .reason-card h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.reason-to-use .reason-card p {
+    color: grey;
+}
