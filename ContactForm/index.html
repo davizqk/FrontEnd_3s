@@ -7,6 +7,63 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <header class="form-header">
+        <div class="container container--flex">
+        <img class="form-header__image-perfil" src="./images/Vector.png" alt="imagem ilustrativa">
+        <h1 class="form-header__title">Contact form</h1>
+        <p class="form-header__text">insira os dados do contato e clique em cadastrar!</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+        <form class="form-contact" action="">
+            <div class="form-contact__linha">
+                <div class="form-contact__col-a">
+                    <label class="form-contact__label" for="nome">Nome</label>
+                </div>
+                <div class="form-contact__col-b">
+                    <input class="form-contact__input form-contact__input--metade" type="text" id="nome" name="nome" placeholder="Nome">
+                    <input class="form-contact__input form-contact__input--metade" type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
+                </div>
+            </div>
+            <div class="form-contact__linha">
+                <div class="form-contact__col-a">
+                    <label class="form-contact__label" for="nome">Email</label>
+                </div>
+                <div class="form-contact__col-b">
+                    <input class="form-contact__input form-contact__input--inteiro" type="text" id="email" name="email" placeholder="Email">
+                    <!-- <input class="form-contact__input form-contact__input--metade" type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome"> -->
+                </div>
+            </div>
+            <div class="form-contact__linha">
+                <div class="form-contact__col-a">
+                    <label class="form-contact__label" for="nome">Telefone</label>
+                </div>
+                <div class="form-contact__col-b">
+                    <input class="form-contact__input form-contact__input--terço" type="text" id="email" name="email" placeholder="+55">
+                    <input class="form-contact__input form-contact__input--terço" type="text" id="ddd" name="ddd" placeholder="ddd">
+                    <input class="form-contact__input form-contact__input--terço" type="text" id="numero" name="numero" placeholder="ex: 99999-9999">
+                </div>
+            </div>
+            <div class="form-contact__linha">
+                <div class="form-contact__col-a">
+                    <label class="form-contact__label" for="nome">Endereço</label>
+                </div>
+                <div class="form-contact__col-b">
+                    <input class="form-contact__input form-contact__input--terço" type="text" id="cep" name="cep" placeholder="cep: 9999-999">
+                    <input class="form-contact__input form-contact__input--terço" type="text" id="rua" name="rua" placeholder="Rua lá de casa">
+                    <input class="form-contact__input form-contact__input--terço" type="text" id="numero-casa" name="numero-casa" placeholder="ex: 777">
+                    <input class="form-contact__input form-contact__input--terço" type="text" id="complemento" name="complemento" placeholder="apto 12 bloco X">
+                    <input class="form-contact__input form-contact__input--terço" type="text" id="bairro" name="bairro" placeholder="Bairro">
+                    <input class="form-contact__input form-contact__input--terço" type="text" id="cidade" name="cidade" placeholder="Cidade">
+                    <input class="form-contact__input form-contact__input--terço" type="text" id="estado" name="estado" placeholder="Estado">
+                </div>
+            </div>
+        </form>
+    </div>
+    </main>
+    <footer>
+        Todos os direitos reservados - 1 minuto
+    </footer>
 </body>
 </html>
