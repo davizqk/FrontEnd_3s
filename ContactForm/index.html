@@ -31,7 +31,7 @@
                     <label class="form-contact__label" for="nome">Email</label>
                 </div>
                 <div class="form-contact__col-b">
-                    <input class="form-contact__input form-contact__input--inteiro" type="text" id="email" name="email" placeholder="Email">
+                    <input class="form-contact__input form-contact__input--inteiro" type="email" id="email" name="email" placeholder="Email">
                     <!-- <input class="form-contact__input form-contact__input--metade" type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome"> -->
                 </div>
             </div>
@@ -40,9 +40,9 @@
                     <label class="form-contact__label" for="nome">Telefone</label>
                 </div>
                 <div class="form-contact__col-b">
-                    <input class="form-contact__input form-contact__input--terço" type="text" id="email" name="email" placeholder="+55">
-                    <input class="form-contact__input form-contact__input--terço" type="text" id="ddd" name="ddd" placeholder="ddd">
-                    <input class="form-contact__input form-contact__input--terço" type="text" id="numero" name="numero" placeholder="ex: 99999-9999">
+                    <input class="form-contact__input form-contact__input--terço" type="number" id="ddi" name="ddi" placeholder="+55">
+                    <input class="form-contact__input form-contact__input--terço" type="number" id="ddd" name="ddd" placeholder="ddd">
+                    <input class="form-contact__input form-contact__input--terço" type="number" id="numero" name="numero" placeholder="ex: 99999-9999">
                 </div>
             </div>
             <div class="form-contact__linha">
@@ -50,15 +50,43 @@
                     <label class="form-contact__label" for="nome">Endereço</label>
                 </div>
                 <div class="form-contact__col-b">
-                    <input class="form-contact__input form-contact__input--terço" type="text" id="cep" name="cep" placeholder="cep: 9999-999">
-                    <input class="form-contact__input form-contact__input--terço" type="text" id="rua" name="rua" placeholder="Rua lá de casa">
-                    <input class="form-contact__input form-contact__input--terço" type="text" id="numero-casa" name="numero-casa" placeholder="ex: 777">
-                    <input class="form-contact__input form-contact__input--terço" type="text" id="complemento" name="complemento" placeholder="apto 12 bloco X">
-                    <input class="form-contact__input form-contact__input--terço" type="text" id="bairro" name="bairro" placeholder="Bairro">
-                    <input class="form-contact__input form-contact__input--terço" type="text" id="cidade" name="cidade" placeholder="Cidade">
-                    <input class="form-contact__input form-contact__input--terço" type="text" id="estado" name="estado" placeholder="Estado">
+                    <input class="form-contact__input form-contact__input--quarto" type="number" id="cep" name="cep" placeholder="cep: 9999-999">
+                    <input class="form-contact__input form-contact__input--metade" type="text" id="rua" name="rua" placeholder="Rua lá de casa">
+                    <input class="form-contact__input form-contact__input--quarto" type="number" id="numero-casa" name="numero-casa" placeholder="ex: 777">
                 </div>
             </div>
+            <div class="form-contact__linha">
+                <div class="form-contact__col-a">
+                    <label class="form-contact__label" for="nome"></label>
+                </div>
+                <div class="form-contact__col-b">
+                <input class="form-contact__input form-contact__input--terço" type="text" id="complemento" name="complemento" placeholder="apto 12 bloco X">
+                <input class="form-contact__input form-contact__input--terço" type="text" id="bairro" name="bairro" placeholder="Bairro">
+                <input class="form-contact__input form-contact__input--terço" type="text" id="cidade" name="cidade" placeholder="Cidade">
+                </div>
+            </div>
+            <div class="form-contact__linha">
+                <div class="form-contact__col-a">
+                    <label class="form-contact__label" for="nome"></label>
+                </div>
+                <div class="form-contact__col-b">
+                <input class="form-contact__input form-contact__input--terço" type="text" id="estado" name="estado" placeholder="Estado">
+                </div>
+            </div>
+            <div class="form-contact__linha-2">
+                <div class="form-contact__col-a">
+                    <label class="form-contact__label" for="nome">Anotações</label>
+                </div>
+                <div class="form-contact__col-b">
+                    <textarea class="form-contact__input form-contact__input--anotacoes" name="anotacoes" id="anotacoes" placeholder="Suas anotações aqui"></textarea>
+                </div>
+            </div>
+            <div class="form-contact_linha">
+                <div class="form-contact__col-a"></div>
+                <div class="form-contact__col-b-botoes">
+                    <button type="submit">Cadastrar</button>                           <button type="reset">Limpar</button>
+                </div>
+                </div>
         </form>
     </div>
     </main>
