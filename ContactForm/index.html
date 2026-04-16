@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./responsivo.css"> -->
 </head>
 <body>
     <header class="form-header">
@@ -32,7 +33,6 @@
                 </div>
                 <div class="form-contact__col-b">
                     <input class="form-contact__input form-contact__input--inteiro" type="email" id="email" name="email" placeholder="Email">
-                    <!-- <input class="form-contact__input form-contact__input--metade" type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome"> -->
                 </div>
             </div>
             <div class="form-contact__linha">
@@ -40,9 +40,9 @@
                     <label class="form-contact__label" for="nome">Telefone</label>
                 </div>
                 <div class="form-contact__col-b">
-                    <input class="form-contact__input form-contact__input--terço" type="number" id="ddi" name="ddi" placeholder="+55">
+                    <input class="form-contact__input form-contact__input--terço" type="number" id="ddi" name="ddi" placeholder="+55" >
                     <input class="form-contact__input form-contact__input--terço" type="number" id="ddd" name="ddd" placeholder="ddd">
-                    <input class="form-contact__input form-contact__input--terço" type="number" id="numero" name="numero" placeholder="ex: 99999-9999">
+                    <input class="form-contact__input form-contact__input--terço" type="number" id="numero" name="numero" placeholder="numero do celular">
                 </div>
             </div>
             <div class="form-contact__linha">
@@ -50,9 +50,15 @@
                     <label class="form-contact__label" for="nome">Endereço</label>
                 </div>
                 <div class="form-contact__col-b">
-                    <input class="form-contact__input form-contact__input--quarto" type="number" id="cep" name="cep" placeholder="cep: 9999-999">
+                    <input
+                    type="number"
+                    id="cep"
+                    class="form-contact__input form-contact__input--quarto"
+                    placeholder="CEP: 9999-9999"
+                    maxlength="8"
+                    onblur="buscarEndereco(this.value)">
                     <input class="form-contact__input form-contact__input--metade" type="text" id="rua" name="rua" placeholder="Rua lá de casa">
-                    <input class="form-contact__input form-contact__input--quarto" type="number" id="numero-casa" name="numero-casa" placeholder="ex: 777">
+                    <input class="form-contact__input form-contact__input--quarto" type="number" id="numeroCasa" name="numeroCasa" placeholder="numero da casa">
                 </div>
             </div>
             <div class="form-contact__linha">
@@ -60,7 +66,7 @@
                     <label class="form-contact__label" for="nome"></label>
                 </div>
                 <div class="form-contact__col-b">
-                <input class="form-contact__input form-contact__input--terço" type="text" id="complemento" name="complemento" placeholder="apto 12 bloco X">
+                <input class="form-contact__input form-contact__input--terço" type="text" id="complemento" name="complemento" placeholder="complemento">
                 <input class="form-contact__input form-contact__input--terço" type="text" id="bairro" name="bairro" placeholder="Bairro">
                 <input class="form-contact__input form-contact__input--terço" type="text" id="cidade" name="cidade" placeholder="Cidade">
                 </div>
@@ -84,7 +90,7 @@
             <div class="form-contact_linha">
                 <div class="form-contact__col-a"></div>
                 <div class="form-contact__col-b-botoes">
-                    <button type="submit">Cadastrar</button>                           <button type="reset">Limpar</button>
+                    <button onclick="validarFormulario()" type="button">Cadastrar</button>                           <button type="reset">Limpar</button>
                 </div>
                 </div>
         </form>
@@ -93,5 +99,6 @@
     <footer>
         Todos os direitos reservados - 1 minuto
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>

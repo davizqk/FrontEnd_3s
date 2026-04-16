@@ -175,3 +175,70 @@ body {
     background-color: white;
     color: #18A2C9;
 }
+
+@media (max-width: 768px) {
+
+    body {
+        height: 100%;
+        padding: 20px 10px;
+    }
+
+    .container--flex {
+        gap: 10px;
+    }
+
+    .form-header__image-perfil {
+        width: 120px;
+        padding: 15px;
+    }
+
+    .form-header__title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .form-header__text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .form-contact {
+        padding: 10px 0;
+    }
+
+    .form-contact__linha {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-contact__col-a {
+        display: none;
+    }
+    
+    .form-contact__col-b {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .form-contact__input
+{
+        width: 100% ;
+        height: 45px;
+        border-radius: 6px;
+        font-size: 14px;
+        .form-contact__input--metade,
+    .form-contact__input--terco,
+    .form-contact__input--quarto {
+        width: 100%;
+    }
+    .form-contact__linha {
+        margin-bottom: 12px;
+    }
+    footer {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}
+}
