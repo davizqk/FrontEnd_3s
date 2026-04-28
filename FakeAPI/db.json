@@ -53,5 +53,63 @@
   ],
   "frutas": [],
   "jogos": [],
+  "imc": [
+    {
+      "nome": "Davi",
+      "altura": "1.70",
+      "peso": "65",
+      "IMC": 22.49134948096886,
+      "Situacao": "Saudável",
+      "id": "wYP4U7nDlfI"
+    },
+    {
+      "nome": "Paulo",
+      "altura": "1.72",
+      "peso": "60",
+      "IMC": 20.281233098972418,
+      "Situacao": "Saudável",
+      "id": "W-aZnxiYlz8"
+    },
+    {
+      "nome": "Walyson",
+      "altura": "1.72",
+      "peso": "63",
+      "IMC": 21.29529475392104,
+      "Situacao": "Saudável",
+      "id": "YhKVNdzFbgE"
+    },
+    {
+      "nome": "Gabriel",
+      "altura": "1.74",
+      "peso": "70",
+      "IMC": 23.120623596247853,
+      "Situacao": "Saudável",
+      "id": "4LuOX0HzbCw"
+    },
+    {
+      "nome": "Gustavo",
+      "altura": "1.67",
+      "peso": "55",
+      "IMC": 19.721036967980208,
+      "Situacao": "Saudável",
+      "id": "JB75KfgdQWE"
+    },
+    {
+      "nome": "Matheus",
+      "altura": "1.75",
+      "peso": "70",
+      "IMC": 22.857142857142858,
+      "Situacao": "Saudável",
+      "id": "uC0H0iECwmU"
+    },
+    {
+      "nome": "Lorenzo",
+      "altura": "1.77",
+      "peso": "71",
+      "IMC": 22.66270867247598,
+      "Situacao": "Saudável",
+      "id": "59w-vprpF30"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
