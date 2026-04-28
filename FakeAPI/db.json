@@ -1,0 +1,57 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Davi Muniz",
+      "email": "davi@gmail.com",
+      "idade": 17
+    },
+    {
+      "id": "2",
+      "nome": "Paulo Andre",
+      "email": "paulo@gmail.com",
+      "idade": 17
+    },
+    {
+      "id": "3",
+      "nome": "Walyson",
+      "email": "walyson@gmail.com",
+      "idade": 18
+    },
+    {
+      "id": "4",
+      "nome": "Gabriel Figueira",
+      "email": "gabriel@gmail.com",
+      "idade": 17
+    },
+    {
+      "id": "5",
+      "nome": "Gustavo Augusto",
+      "email": "ga@gmail.com",
+      "idade": 17
+    }
+  ],
+  "posts": [
+    {
+      "id": "IuJShQmqfBk",
+      "texto": "Visca Barça, Visca Catalunya!",
+      "imagem": "https://i.scdn.co/image/ab6761610000e5eb53314b0b73aff313933e8f5d",
+      "qtdCurtidas": "5000000"
+    },
+    {
+      "id": "9Xzg_uSfpI4",
+      "texto": "Vai Corinthians!",
+      "imagem": "https://static.corinthians.com.br/uploads/16819155334a5cfa9281924139db466a8a19291aff.jpg",
+      "qtdCurtidas": "5000000"
+    },
+    {
+      "id": "oTmqFAC7Mgs",
+      "texto": "Blue is the colour, football is the game / We're all together, and winning is our aim!",
+      "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/c/cc/Chelsea_FC.svg/250px-Chelsea_FC.svg.png",
+      "qtdCurtidas": "5000000"
+    }
+  ],
+  "frutas": [],
+  "jogos": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
