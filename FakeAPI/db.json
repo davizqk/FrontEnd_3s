@@ -111,5 +111,28 @@
       "id": "59w-vprpF30"
     }
   ],
+  "calculadora": [
+    {
+      "n1": 37,
+      "n2": 30,
+      "op": "soma",
+      "resultado": "67.00",
+      "id": "JS3rLFZSanQ"
+    },
+    {
+      "n1": 33.5,
+      "n2": 2,
+      "op": "multiplicacao",
+      "resultado": "67.00",
+      "id": "I5Cct9jXHcU"
+    },
+    {
+      "n1": 70,
+      "n2": 3,
+      "op": "subtracao",
+      "resultado": "67.00",
+      "id": "FC_l8KALdUE"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
